@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:onClick="addA"
+        android:id="@+id/btn_AA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:onClick="addB"
+        android:id="@+id/btn_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="68dp"
+        android:text="B"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <Button
+        android:onClick="addC"
+        android:id="@+id/btn_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="C"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <FrameLayout
+        android:id="@+id/framend"
+        android:layout_width="496dp"
+
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+
+        >
+
+
+    </FrameLayout>
+
+</RelativeLayout>
